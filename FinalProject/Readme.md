@@ -27,7 +27,8 @@ in BibTex
 ![Mindmap of Summary](./mindmap.png)
 
 
-**Fig.1 - Summary Mindmap**
+**Fig.1 - Summary Mindmap** created by Whimsical
+
 
 ### 1. Background and Motivation
 
@@ -59,7 +60,8 @@ The new consensus algorithm is expected to solve the drawbacks of the existing b
 ![Mindmap of Critics](./mindmap2.png)
 
 
-**Fig.2 - Critics Mindmap**
+**Fig.2 - Critics Mindmap** created by Whimsical
+
 
 ### 1. Economics for Computer Science: Incentives in Computer Science
 
@@ -83,7 +85,8 @@ Excessive randomness in the system may increase system uncertainty and risk, and
 ![Mindmap of Inspirations](./mindmap3.png)
 
 
-**Fig.1 - Inspirations Mindmap**
+**Fig.1 - Inspirations Mindmap** created by Whimsical
+
 
 ### 1. Interdisciplinary Research
 
