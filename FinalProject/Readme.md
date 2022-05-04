@@ -1,6 +1,4 @@
-# The Future of Computional Microeconomics: Comments for "[Voting-Based Decentralized Consensus Design for
-Improving the Efficiency and Security of
-Consortium Blockchain](https://doi.org/10.1109/jiot.2020.3029781)"
+# The Future of Computional Microeconomics: Comments for "[Voting-Based Decentralized Consensus Design for Improving the Efficiency and Security of Consortium Blockchain](https://doi.org/10.1109/jiot.2020.3029781)"
 
 > *Disclaimer: Submissions to the Final Project for [COMPSCI/ECON 206 Computational Microeconomics](https://ce.pubpub.org/), 2022 Spring Term (Seven Week - Second) instructed by [Prof. Luyao Zhang](http://scholars.duke.edu/person/luyao.zhang) at Duke Kunshan University.*
 
