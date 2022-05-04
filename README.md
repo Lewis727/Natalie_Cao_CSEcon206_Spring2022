@@ -19,7 +19,9 @@ Committed to community construction, Natalie has worked as a Residence Assistant
 Follow Qitong Cao's activities @
 
 -**[Linkedin](https://www.linkedin.com/in/natalie-cao-568a28176/)**
+
 -**[Facebook](https://www.facebook.com/profile.php?id=100028120429318)**
+
 -**[Twitter](https://twitter.com/NatalieCao9)**
 
 
