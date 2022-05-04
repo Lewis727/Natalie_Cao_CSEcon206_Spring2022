@@ -7,7 +7,7 @@
 
 by [Qitong Cao]
 
-![Profile Photo](./photo.png)
+![Profile Photo](./photo.jpg)
 
 
 **Profile Photo**
