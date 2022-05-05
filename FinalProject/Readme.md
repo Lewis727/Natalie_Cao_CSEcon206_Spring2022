@@ -52,7 +52,7 @@ In general, the main contributions made by the new consensus algorithm include:
 
 - The new strategy determines the privileges and ownership of the packaged blocks, which utilize the dual characteristics of unpredictability and verifiable blockchain, assisting in improving the system's strength against the targeted attacks.
 
-Based on the existing consensus algorithm that uses reputation and credit as incentive measures, the asset factor is introduced to the algorithm to further increase the cost of malicious behavior and improve the algorithm's security. 
+- Based on the existing consensus algorithm that uses reputation and credit as incentive measures, the asset factor is introduced to the algorithm to further increase the cost of malicious behavior and improve the algorithm's security. 
 
 ### 5. Practical Impacts
 
@@ -109,7 +109,7 @@ Computer science and economics intersect academically, especially in areas where
 
 | Glossary | Definition |Source|
 | ----------- | ----------- |-----------|
-| **Consortium blockchains** | **Consortium blockchains** are created and used by groups of corporations when they want to enjoy the advantages in exchanging value and information offered by a distributed ledger but find public, permissionless blockchains inadequate for any reason. |[((“Consortium Blockchain | CoinMarketCap” n.d.))](https://coinmarketcap.com/alexandria/glossary/consortium-blockchain) |
+| **Consortium blockchains** | **Consortium blockchains** are created and used by groups of corporations when they want to enjoy the advantages in exchanging value and information offered by a distributed ledger but find public, permissionless blockchains inadequate for any reason. |[(“Consortium Blockchain | CoinMarketCap” n.d.)](https://coinmarketcap.com/alexandria/glossary/consortium-blockchain) |
 | **Consensus Algorithm** | **Consensus Algorithm** is a fault-tolerant mechanism that is used in computer and blockchain systems to achieve the necessary agreement on a single data value or a single state of the network among distributed processes or multi-agent systems |[(Frankenfield 2019a)](https://www.investopedia.com/terms/c/consensus-mechanism-cryptocurrency.asp) |
 | **Proof of Work (PoW)** | **Proof of Work (PoW)** as an original consensus algorithm that requires effort solving mathematical puzzles is used to operate at the cost of additional CPU consumption, higher time cost, and lower system throughput, which cannot cope with the quality of service requirements of some scenarios |[(Frankenfield 2021)](https://www.investopedia.com/terms/p/proof-stake-pos.asp)|
 | **Proof of Stake (PoS)** | **Proof of Stake (PoS)** as another instrument to achieve consensus requiring participants to stake coins or set them aside to be randomly selected as a validator |[(Frankenfield 2019b)](https://www.investopedia.com/terms/p/proof-stake-pos.asp)|
@@ -128,13 +128,12 @@ Computer science and economics intersect academically, especially in areas where
 - Regarding the third question in part III, I have rearranged my original answer to part II and written a new answer as the direction of my professional development, which might fit the requirement better. I have mentioned how my takeaway from this course will benefit me in my professional studies in the future.
 
 > *Original comments form Lewis Tian:
-> Peer Evaluation for Natalie:
-Natalie’s final project draft is already a complete, well-written version that not only gives a concise summary of the paper but also her original thoughts in the critique. I highly appreciate the clarity, comprehensiveness, and professionalism demonstrated in her final project.:星星眼:
+> Natalie’s final project draft is already a complete, well-written version that not only gives a concise summary of the paper but also her original thoughts in the critique. I highly appreciate the clarity, comprehensiveness, and professionalism demonstrated in her final project.
 To elaborate, the flow charts offer neat overviews of her points that follow certain logical flows. I especially appreciate her ability to summarize highly technical content into concisely organized points as presented in her summary.
-In addition, her summary and other two parts cover a comprehensive set of points without redundant repetitions, making it engaging for readers.
+>In addition, her summary and other two parts cover a comprehensive set of points without redundant repetitions, making it engaging for readers.
 Moreover, from my perspective, her professionalism is demonstrated in her excellent word choice, use of logical connectors, structure (e.g., the use of numbered lists to clearly express points), and ability to make her points with concrete explanations and examples.
 Nicely done!
->While this version is already great work, I would make the following suggestions to improve it to perfection. :100:
+>While this version is already great work, I would make the following suggestions to improve it to perfection.
 First, adding explanations to jargon that are essential for understanding a sentence would be super helpful for making the writing more self-content. For example, in the very first sentence, it might be good to add a footnote to briefly define “consortium blockchain”. The same point can be made for the acronyms in the Methods section. Things like VRF, PBFT, and MBFT should at least be spelled out in their first occurrences.
 Second, as Prof. Zhang mentioned in class to all of us, certain parts of the final project need more citations to make a point. For instance, the Background and Intellectual Merits sections can be improved by adding citations to explain what other works this paper is based on and what area of research this paper is contributing to.
 >Third, while Natalie’s answers to the first two questions of part III are brilliant and inspiring, for the third question, the current answer, though provides an excellent argument detailing the practical applications of AI and reinforcement learning, might be a bit off the topic of “professional growth”. Natalie could perhaps improve this specific answer by thinking about “what’s your takeaway from this class for future professional growth?”, as instructed. In other words, she should shed more light on how this course contributes in any way to her future professional growth.
