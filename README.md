@@ -7,7 +7,7 @@
 
 by [Qitong Cao]
 
-![Profile Photo](./photo.jpg)
+![Profile Photo](./photo.jpg, style="width: 150px; max-width: 100%; height: auto" title="Click to enlarge picture")
 
 
 **Profile Photo**
