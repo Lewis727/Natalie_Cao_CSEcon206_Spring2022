@@ -7,7 +7,8 @@
 
 by [Qitong Cao]
 
-< img src="https://github.com/CSEcon/Natalie_Cao_CSEcon206_Spring2022/blob/main/photo.jpg" style="width: 150px; max-width: 100%; height: auto" title="Click to enlarge picture" />
+
+![Profile Photo](./photo.jpg)
 
 
 **Profile Photo**
