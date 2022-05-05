@@ -36,19 +36,21 @@ Consortium blockchain has been gaining increasing attention with the advantages 
 
 ### 2. Research Questions
 
-This paper reviews the formation and development of existing major consensus algorithms and points out the corresponding application limitations. Proof of Work (PoW) is an original consensus algorithm that requires effort in solving mathematical puzzles. It is used to operate at the cost of additional CPU consumption, higher time cost, and lower system throughput, which cannot cope with the quality of service requirements of some scenarios [(Frankenfield 2021)](https://www.investopedia.com/terms/p/proof-stake-pos.asp). Besides, Proof of Stake (PoS) is another instrument to achieve consensus requiring participants to stake coins or set them aside to be randomly selected as a validator [(Frankenfield 2019b)](https://www.investopedia.com/terms/p/proof-stake-pos.asp), faces the problem with the decentralization of authority. Another algorithm, the Byzantine Fault Tolerance (BFT) algorithm, carries the computer system's ability to continue operating even some of the nodes fail or act maliciously [(Daly 2021)]( https://www.fool.com/investing/stock-market/market-sectors/financials/cryptocurrency-stocks/byzantine-fault-tolerance/). However, it is also limited by the size of participants, resulting in low system capacity and appointing leaders vulnerable to targeted attacks. At the same time, the fairness of user profit has not reached the expected level of attention. Based on the above research results and problems, this paper formulated the algorithm, voting-based decentralized consensus (VDC) of the consortium blockchain to reach better fairness in terms of user benefits and time efficiency under the condition of acceptable energy consumption without sacrificing security [(Sun et al. 2020)](https://doi.org/10.1109/jiot.2020.3029781). 
+How to improve the efficiency and security of consortium blockchain?
 
 ### 3. Methods
 
-The paper adopts the Model & Simulation method. It proposes a new algorithm, voting-based decentralized consensus (VDC), to improve the weakness of the existing algorithms [(Sun et al. 2020)](https://doi.org/10.1109/jiot.2020.3029781). First, the model classifies the nodes into different categories, limiting the authority to avoid monopoly and reducing communication complexity. Secondly, based on verifiable random function (VRF), which refers to producing publicly verifiable and unpredictable random values [("Verifiable Random Function" 2021)](https://en.wikipedia.org/wiki/Verifiable_random_function), the algorithm includes the operation of "lottery drawing" to avoid targeted attacks. Thirdly, owners can frequently switch to ensure the algorithm's fairness; Finally, the algorithm takes assets and reputation as rewards and punishments to establish a strict reward and punishment mechanism to regulate user behavior. In this paper, the performance of the VDC algorithm is analyzed theoretically according to the above characteristics. The influence of different parameters on VDC algorithm performance is studied through simulation experiments to ensure performance improvement. Furthermore, the simulation process also compares the VDC algorithm with PBFT and MBFT algorithms. It proves that the algorithm has apparent advantages in user benefit fairness, time efficiency, and elasticity against target attack and has acceptable extra cost in energy consumption.
+The paper adopts the Model & Simulation method. It proposes a new algorithm, voting-based decentralized consensus (VDC), to improve the weakness of the existing algorithms [(Sun et al. 2020)](https://doi.org/10.1109/jiot.2020.3029781). First, the model classifies the nodes into different categories, limiting the authority to avoid monopoly and reducing communication complexity. Secondly, based on verifiable random function (VRF), which refers to producing publicly verifiable and unpredictable random values [("Verifiable Random Function" 2021)](https://en.wikipedia.org/wiki/Verifiable_random_function), the algorithm includes the operation of "lottery drawing" to avoid targeted attacks. Thirdly, owners can frequently switch to ensure the algorithm's fairness; Finally, the algorithm takes assets and reputation as rewards and punishments to establish a strict reward and punishment mechanism to regulate user behavior. In this paper, the performance of the VDC algorithm is analyzed theoretically according to the above characteristics. The influence of different parameters on VDC algorithm performance is studied through simulation experiments to ensure performance improvement. Furthermore, the simulation process also compares the VDC algorithm with Practical Byzantine Fault Tolerance (PBFT) and Mixed Byzantine Fault Tolerance (MBFT) algorithms. It proves that the algorithm has apparent advantages in user benefit fairness, time efficiency, and elasticity against target attack and has acceptable extra cost in energy consumption.
 
 ### 4. Intellectual Merits
 
+This paper reviews the formation and development of existing major consensus algorithms and points out the corresponding application limitations. Proof of Work (PoW) is an original consensus algorithm that requires effort in solving mathematical puzzles. It is used to operate at the cost of additional CPU consumption, higher time cost, and lower system throughput, which cannot cope with the quality of service requirements of some scenarios [(Frankenfield 2021)](https://www.investopedia.com/terms/p/proof-stake-pos.asp). Besides, Proof of Stake (PoS) is another instrument to achieve consensus requiring participants to stake coins or set them aside to be randomly selected as a validator [(Frankenfield 2019b)](https://www.investopedia.com/terms/p/proof-stake-pos.asp), faces the problem with the decentralization of authority. Another algorithm, the Byzantine Fault Tolerance (BFT) algorithm, carries the computer system's ability to continue operating even some of the nodes fail or act maliciously [(Daly 2021)]( https://www.fool.com/investing/stock-market/market-sectors/financials/cryptocurrency-stocks/byzantine-fault-tolerance/). However, it is also limited by the size of participants, resulting in low system capacity and appointing leaders vulnerable to targeted attacks. At the same time, the fairness of user profit has not reached the expected level of attention. Based on the above research results and problems, this paper formulated the algorithm, voting-based decentralized consensus (VDC) of the consortium blockchain to reach better fairness in terms of user benefits and time efficiency under the condition of acceptable energy consumption without sacrificing security [(Sun et al. 2020)](https://doi.org/10.1109/jiot.2020.3029781). 
+
 In general, the main contributions made by the new consensus algorithm include: 
 
--In the new consensus model, different nodes will be assigned different identities, enjoying different functions and dealing with different things. Identities can be converted to each other to limit and disperse authority to avoid monopoly; 
+- In the new consensus model, different nodes will be assigned different identities, enjoying different functions and dealing with different things. Identities can be converted to each other to limit and disperse authority to avoid monopoly; 
 
--The new strategy determines the privileges and ownership of the packaged blocks, which utilize the dual characteristics of unpredictability and verifiable blockchain, assisting in improving the system's strength against the targeted attacks.
+- The new strategy determines the privileges and ownership of the packaged blocks, which utilize the dual characteristics of unpredictability and verifiable blockchain, assisting in improving the system's strength against the targeted attacks.
 
 Based on the existing consensus algorithm that uses reputation and credit as incentive measures, the asset factor is introduced to the algorithm to further increase the cost of malicious behavior and improve the algorithm's security. 
 
@@ -107,31 +109,58 @@ Computer science and economics intersect academically, especially in areas where
 
 | Glossary | Definition |Source|
 | ----------- | ----------- |-----------|
+| **Consortium blockchains** | **Consortium blockchains** are created and used by groups of corporations when they want to enjoy the advantages in exchanging value and information offered by a distributed ledger but find public, permissionless blockchains inadequate for any reason. |[((“Consortium Blockchain | CoinMarketCap” n.d.))](https://coinmarketcap.com/alexandria/glossary/consortium-blockchain) |
 | **Consensus Algorithm** | **Consensus Algorithm** is a fault-tolerant mechanism that is used in computer and blockchain systems to achieve the necessary agreement on a single data value or a single state of the network among distributed processes or multi-agent systems |[(Frankenfield 2019a)](https://www.investopedia.com/terms/c/consensus-mechanism-cryptocurrency.asp) |
 | **Proof of Work (PoW)** | **Proof of Work (PoW)** as an original consensus algorithm that requires effort solving mathematical puzzles is used to operate at the cost of additional CPU consumption, higher time cost, and lower system throughput, which cannot cope with the quality of service requirements of some scenarios |[(Frankenfield 2021)](https://www.investopedia.com/terms/p/proof-stake-pos.asp)|
 | **Proof of Stake (PoS)** | **Proof of Stake (PoS)** as another instrument to achieve consensus requiring participants to stake coins or set them aside to be randomly selected as a validator |[(Frankenfield 2019b)](https://www.investopedia.com/terms/p/proof-stake-pos.asp)|
 | **Byzantine Fault Tolerance (BFT)** |  **Byzantine Fault Tolerance (BFT)**  algorithm, carrying the computer system's ability to continue operating even some of the nodes fail or act maliciously |[(Daly 2021)]( https://www.fool.com/investing/stock-market/market-sectors/financials/cryptocurrency-stocks/byzantine-fault-tolerance/) |
+| **Practical Byzantine Fault Tolerance (PBFT)** |  **Practical Byzantine Fault Tolerance (PBFT)** provides the network with Byzantine state machine approach, meaning implementing a Byzantine Fault Tolerance by copying servers and synchronizing client interactions with server copies. PBFT can ensure the networks fault-tolerance while allowing it to process thousands of operations per second with almost negligible increases in waiting time. |[((“Practical Byzantine Fault Tolerance (PBFT) - BitcoinWiki” n.d.))]( https://en.bitcoinwiki.org/wiki/PBFT) |
+| **Mixed Byzantine Fault Tolerance (MBFT)** |  **Mixed Byzantine Fault Tolerance (MBFT)** MBFT uses sharding and layered technology. MBFT functionally partitions the nodes that participate in the consensus process and improves the scalability and efficiency without sacrificing security. MBFT also introduces a random node selection mechanism and a credit mechanism to improve security and fault tolerance. |[((Du, Chen, and Ma 2020))]( https://www.researchgate.net/publication/341314780_MBFT_A_New_Consensus_Algorithm_for_Consortium_Blockchain) |
 | **Verifiable Random Function (VRF)** | **Verifiable Random Function (VRF)** refers to produces publicly verifiable and unpredictable random values |[(“Verifiable Random Function” 2021)](https://en.wikipedia.org/wiki/Verifiable_random_function)|
 
 ---
+### Revision of the final project
 
+- In response to the comments on the jargon explanations, I have given the full name and added the definition for technical words, including "consortium blockchain," "VRF," "PoW," "PoS," and so on. I also created a jargon table and listed the definitions to make it more straightforward for the readers.
 
+- Moreover, I have added citations for the technical word definition and critical sentences from the original paper in terms of more citations. I have further developed the Background and Intellectual Merits sections to explain what other works this paper is based on and what area of research this paper is contributing to.
+
+- Regarding the third question in part III, I have rearranged my original answer to part II and written a new answer as the direction of my professional development, which might fit the requirement better. I have mentioned how my takeaway from this course will benefit me in my professional studies in the future.
+
+> *Original comments form Lewis Tian:
+> Peer Evaluation for Natalie:
+Natalie’s final project draft is already a complete, well-written version that not only gives a concise summary of the paper but also her original thoughts in the critique. I highly appreciate the clarity, comprehensiveness, and professionalism demonstrated in her final project.:星星眼:
+To elaborate, the flow charts offer neat overviews of her points that follow certain logical flows. I especially appreciate her ability to summarize highly technical content into concisely organized points as presented in her summary.
+In addition, her summary and other two parts cover a comprehensive set of points without redundant repetitions, making it engaging for readers.
+Moreover, from my perspective, her professionalism is demonstrated in her excellent word choice, use of logical connectors, structure (e.g., the use of numbered lists to clearly express points), and ability to make her points with concrete explanations and examples.
+Nicely done!
+>While this version is already great work, I would make the following suggestions to improve it to perfection. :100:
+First, adding explanations to jargon that are essential for understanding a sentence would be super helpful for making the writing more self-content. For example, in the very first sentence, it might be good to add a footnote to briefly define “consortium blockchain”. The same point can be made for the acronyms in the Methods section. Things like VRF, PBFT, and MBFT should at least be spelled out in their first occurrences.
+Second, as Prof. Zhang mentioned in class to all of us, certain parts of the final project need more citations to make a point. For instance, the Background and Intellectual Merits sections can be improved by adding citations to explain what other works this paper is based on and what area of research this paper is contributing to.
+>Third, while Natalie’s answers to the first two questions of part III are brilliant and inspiring, for the third question, the current answer, though provides an excellent argument detailing the practical applications of AI and reinforcement learning, might be a bit off the topic of “professional growth”. Natalie could perhaps improve this specific answer by thinking about “what’s your takeaway from this class for future professional growth?”, as instructed. In other words, she should shed more light on how this course contributes in any way to her future professional growth.
+
+---
 
 ### References
+Bibliography “Consortium Blockchain | CoinMarketCap.” n.d. CoinMarketCap Alexandria. Accessed May 5, 2022. https://coinmarketcap.com/alexandria/glossary/consortium-blockchain.
 
-Dafoe, Allan, Yoram Bachrach, Gillian Hadfield, Eric Horvitz, Kate Larson, and Thore Graepel. 2021. "Cooperative AI: Machines Must Learn to Find Common Ground." Nature 593 (7857): 33–36. https://doi.org/10.1038/d41586-021-01170-0.
+Dafoe, Allan, Yoram Bachrach, Gillian Hadfield, Eric Horvitz, Kate Larson, and Thore Graepel. 2021. “Cooperative AI: Machines Must Learn to Find Common Ground.” Nature 593 (7857): 33–36. https://doi.org/10.1038/d41586-021-01170-0.
 
-Daly, Lyle. 2021. "What Is Byzantine Fault Tolerance?" The Motley Fool. November 10, 2021. https://www.fool.com/investing/stock-market/market-sectors/financials/cryptocurrency-stocks/byzantine-fault-tolerance/.
+Daly, Lyle. 2021. “What Is Byzantine Fault Tolerance?” The Motley Fool. November 10, 2021. https://www.fool.com/investing/stock-market/market-sectors/financials/cryptocurrency-stocks/byzantine-fault-tolerance/.
 
-Frankenfield, Jake. 2019a. "Consensus Mechanism (Cryptocurrency)." Investopedia. 2019. https://www.investopedia.com/terms/c/consensus-mechanism-cryptocurrency.asp.
-———. 2019b. "Proof of Stake (PoS)." Investopedia. August 11, 2019. https://www.investopedia.com/terms/p/proof-stake-pos.asp.
-———. 2021. "Proof of Work." Investopedia. March 29, 2021. https://www.investopedia.com/terms/p/proof-work.asp.
+Du,Mingxiao, Qijun Chen, and Xiaofeng Ma. 2020. “MBFT: A New Consensus Algorithm for Consortium Blockchain.” IEEE Access 8: 87665–75. https://doi.org/10.1109/access.2020.2993759.
 
-Ghosh, Arpita, and Patrick Hummel. 2014. "A Game-Theoretic Analysis of Rank-Order Mechanisms for User-Generated Content." Journal of Economic Theory 154 (November): 349–74. https://doi.org/10.1016/j.jet.2014.09.009.
+Frankenfield, Jake. 2019a. “Consensus Mechanism (Cryptocurrency).” Investopedia. 2019. https://www.investopedia.com/terms/c/consensus-mechanism-cryptocurrency.asp.
+———. 2019b. “Proof of Stake (PoS).” Investopedia. August 11, 2019. https://www.investopedia.com/terms/p/proof-stake-pos.asp.
+———. 2021. “Proof of Work.” Investopedia. March 29, 2021. https://www.investopedia.com/terms/p/proof-work.asp.
 
-Sun, Gang, Miao Dai, Jian Sun, and Hongfang Yu. 2020. "Voting-Based Decentralized Consensus Design for Improving the Efficiency and Security of Consortium Blockchain." IEEE Internet of Things Journal 8 (8): 1–1. https://doi.org/10.1109/jiot.2020.3029781.
+Ghosh, Arpita, and Patrick Hummel. 2014. “A Game-Theoretic Analysis of Rank-Order Mechanisms for User-Generated Content.” Journal of Economic Theory 154 (November): 349–74. https://doi.org/10.1016/j.jet.2014.09.009.
 
-"Verifiable Random Function." 2021. Wikipedia. September 27, 2021. https://en.wikipedia.org/wiki/Verifiable_random_function.
+“Practical Byzantine Fault Tolerance (PBFT) - BitcoinWiki.” n.d. En.bitcoinwiki.org. Accessed May 5, 2022. https://en.bitcoinwiki.org/wiki/PBFT.
+
+Sun, Gang, Miao Dai, Jian Sun, and Hongfang Yu. 2020. “Voting-Based Decentralized Consensus Design for Improving the Efficiency and Security of Consortium Blockchain.” IEEE Internet of Things Journal 8 (8): 1–1. https://doi.org/10.1109/jiot.2020.3029781.
+
+“Verifiable Random Function.” 2021. Wikipedia. September 27, 2021. https://en.wikipedia.org/wiki/Verifiable_random_function.
 
 ### References in BibTex
 ```
@@ -212,6 +241,31 @@ Sun, Gang, Miao Dai, Jian Sun, and Hongfang Yu. 2020. "Voting-Based Decentralize
   volume = {154},
   year = {2014},
   journal = {Journal of Economic Theory}
+}
+
+@misc{consortium,
+  title = {Consortium Blockchain | CoinMarketCap},
+  url = {https://coinmarketcap.com/alexandria/glossary/consortium-blockchain},
+  urldate = {2022-05-05},
+  organization = {CoinMarketCap Alexandria}
+}
+
+@misc{practical,
+  title = {Practical Byzantine Fault Tolerance (pBFT) - BitcoinWiki},
+  url = {https://en.bitcoinwiki.org/wiki/PBFT},
+  urldate = {2022-05-05},
+  organization = {en.bitcoinwiki.org}
+}
+
+@article{du_2020_mbft,
+  author = {Du, Mingxiao and Chen, Qijun and Ma, Xiaofeng},
+  pages = {87665-87675},
+  title = {MBFT: A New Consensus Algorithm for Consortium Blockchain},
+  doi = {10.1109/access.2020.2993759},
+  urldate = {2020-07-04},
+  volume = {8},
+  year = {2020},
+  journal = {IEEE Access}
 }
 ```
 
