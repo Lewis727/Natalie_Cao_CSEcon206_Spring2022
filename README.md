@@ -7,7 +7,7 @@
 
 by [Qitong Cao]
 
-![Profile Photo]< img src="https://github.com/CSEcon/Natalie_Cao_CSEcon206_Spring2022/blob/main/photo.jpg" style="width: 150px; max-width: 100%; height: auto" title="Click to enlarge picture" />
+< img src="https://github.com/CSEcon/Natalie_Cao_CSEcon206_Spring2022/blob/main/photo.jpg" style="width: 150px; max-width: 100%; height: auto" title="Click to enlarge picture" />
 
 
 **Profile Photo**
@@ -38,3 +38,4 @@ I would like to thank my Econometric Professor Luyao Zhang for her invaluable gu
 | **[Problem Set 1](https://github.com/CSEcon/Natalie_Cao_CSEcon206_Spring2022/blob/main/ProblemSet1/CSECON206_ProblemSet1_Qitong.pdf)** | Week 3 |A General Introduction to Game Theory: A Dichotomy Approach|
 | **[Code Assignment 2](https://github.com/CSEcon/Natalie_Cao_CSEcon206_Spring2022/blob/main/CodeAssignment2/Code%20Assignment%202_%20Algorithmic%20Game%20Theory.ipynb)** | Week 4 | Algorithmic Game Theory|
 | **[Problem Set 2](https://github.com/CSEcon/Natalie_Cao_CSEcon206_Spring2022/blob/main/ProblemSet2/qc39.md)** | Week 5 | Cooperative AI and the Future of Mechanism Design|
+| **[Final Project](https://github.com/CSEcon/Natalie_Cao_CSEcon206_Spring2022/tree/main/FinalProject)** | Week 6-7 | The Future of Computational Microeconomics|
